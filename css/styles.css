@@ -5,20 +5,22 @@
 .header-wrapper {
     background-color: #186378;
     text-align: center;
-    padding: 25px;
+    padding: 10px;
     color: white;
-}
-
-body {
-    margin: 0;
 }
 
 .nav {
     overflow: hidden;
 }
 
+.logo {
+    padding-left: 95%;
+    height: 100px;
+    width: 100px;
+}
 
-/* Style the topnav links */
+
+/* Style the nav links */
 
 .nav a {
     float: left;
@@ -26,6 +28,7 @@ body {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
+    padding-top: 65px;
     text-decoration: none;
 }
 
@@ -34,18 +37,72 @@ body {
     color: black;
 }
 
-#logo-wrapper {
-    width: 10%;
-    height: 10px;
+.main {
+    margin: 65px 0;
 }
 
-img {
-    max-width: 45px;
+#section_article_column {
     float: left;
+    width: 680px;
+    height: 500px;
 }
 
-.logo-wrapper {
-    display: inline-block;
-    padding-left: 1500px;
-    background-repeat: no-repeat;
+section,
+article {
+    height: 340px;
+    box-shadow: 1px 2px #f7f3f4;
+    padding: 10px 20px;
+    background-color: #f4f0f1;
+}
+
+.media-player {
+    background-color: #f4f0f1;
+    padding: 0%;
+    margin: 25px;
+}
+
+.walia {
+    float: left;
+    width: 40%;
+    padding: 80px;
+    background-color: rgba(245, 241, 242, 255);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    background-color: #f4f0f1;
+    ;
+}
+
+.icon a {
+    float: right;
+    display: flex;
+    padding: 10px 10px;
+    width: 20px;
+    height: 30px;
+    color: #f4f0f1;
+}
+
+.media-player {
+    float: left;
+    background-color: #f4f0f1;
+    padding: 14px 16px;
+    margin: 0%;
+}
+
+map {
+    height: 680px;
+    width: 580px;
+    background-color: #f4f0f1;
+}
+
+footer {
+    background-color: #186378;
+    text-align: center;
+    padding: 45px;
+    margin-bottom: 50px;
+    color: white;
+    clear: both;
 }
