@@ -21,6 +21,7 @@
  
  .nav a {
      float: left;
+     font-size: 20px;
      display: block;
      color: black;
      text-align: center;
@@ -65,16 +66,20 @@
  .icon a {
      float: right;
      display: flex;
-     padding: 10px 10px;
-     width: 20px;
+     padding: 16px 10px;
+     width: 40px;
      height: 30px;
      color: #f4f0f1;
+ }
+ 
+ .icon a:hover {
+     color: black
  }
  
  .icon {
      font-size: 30px;
      line-height: 30px;
-     padding-top: 10px;
+     padding-bottom: 40px;
  }
  /* video and audio */
  
