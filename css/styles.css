@@ -84,10 +84,43 @@
             padding: 14px 16px;
             margin: 0%;
         }
+        /* map {
+   height: 680px;
+   width: 580px;
+        }
+         */
+        /* contact form */
         
-        map {
-            height: 680px;
-            width: 580px;
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #e5e3e3;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical
+        }
+        
+        input[type=submit] {
+            background-color: #5a8285;
+            color: black;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #6fa0a3;
+        }
+        
+        .container {
+            border-radius: 5px;
+            background-color: #d6e9eb;
+            padding: 20px;
         }
         
         footer {
